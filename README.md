@@ -1,6 +1,8 @@
 # Robotics
 Jayway Robotics Manager
 
+The assignment technical file is [here](https://github.com/jSchnitzer1/Robotics/blob/master/Tech%20Assignment%20Java%20.pdf "Assignment file")
+
 ## Requirements
 (Open) JDK 14
 
