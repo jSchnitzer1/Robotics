@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'century_gothic';
+  src: url('./assets/century_gothic.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'century_gothic_bold';
+  src: url('./assets/century_gothic_bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "bank_gothic";
+  src: url('./assets/bank_gothic.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "berkshireswash";
+  src: url('./assets/berkshireswash.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "lobster";
+  src: url('./assets/Lobster_1.3.otf') format("truetype");
+}
+
+html, body { height: 100%; }
+
+html {
+  background: url(./assets/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  font-family: "century_gothic", Verdana, Tahoma !important;
+  color: rgba(255,255,255, 1);
+}
+
+.header-img {
+  display:block;
+  margin:auto;
+}
+
+.jayway {
+  font-family: "century_gothic_bold", Verdana, Tahoma !important;
+  text-align: center;
+  color: rgba(241,241,241,1);
+}
+
+.jayway1{
+  text-align: center;
+  color: rgba(125,172,122,1);
+}
+
+.left-banner {
+  position: fixed;
+  left: 0;
+  width: 200px;
+  min-height: 100%;
+  background-color: rgba(70,90,70,1);
+}
+
+.robot-form {
+  margin-top: 15px;
+  padding: 5px 15px;
+}
+
+.room-type {
+  margin-left: 10px;
+}
+
+.submit-button {
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+  margin:15px;
+}
+
+.move-result {
+  margin-top: 15px;
+  padding: 5px 15px;
+}
+
+.move-result-outcome {
+  font-family: "century_gothic_bold", Verdana, Tahoma !important;
+}
+
+.robot-icon {
+  position: fixed;
+  left: 200px;
+  width: 100%;
+  height: 100%;
+}
+
+.robot-icon img {
+  position: absolute;
+}
+
+.robot-icon div {
+  position: absolute;
+  font-family: "century_gothic_bold", Verdana, Tahoma !important;
+}

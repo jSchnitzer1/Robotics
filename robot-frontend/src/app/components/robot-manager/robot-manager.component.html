@@ -1,0 +1,53 @@
+<div class="left-banner">
+  <div>
+    <h2 class="jayway">jayway</h2>
+    <h2 class="jayway1">Robot Manager</h2>
+  </div>
+  <form class="robot-form" (ngSubmit)="onSubmit()">
+      <div class="fields-container">
+        <mat-form-field appearance="legacy" style="width: 170px">
+          <mat-label>Robot Command</mat-label>
+          <input matInput [(ngModel)]="command" placeholder="Robot Command..." name="command">
+          <mat-icon matSuffix>receipt</mat-icon>
+        </mat-form-field>
+      </div>
+
+      <div class="fields-container">
+        <mat-form-field appearance="fill" style="width: 170px">
+          <mat-label>Room Type</mat-label>
+          <mat-select [(ngModel)]="roomType" [placeholder]="roomType" name="roomType">
+            <mat-option value="SQUARE">Square</mat-option>
+            <mat-option value="CIRCLE">Circle</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="fields-container">
+        <div>Position:</div>
+        <span class="fields-container">
+          <mat-form-field appearance="legacy" style="width: 75px; margin-right: 5px;">
+            <mat-label>X Position</mat-label>
+            <input matInput type="number" [(ngModel)]="xPosition" placeholder="X Position" name="xPosition">
+          </mat-form-field>
+        </span>
+        <span class="fields-container">
+          <mat-form-field appearance="legacy" style="width: 75px; margin-left: 5px;">
+            <mat-label>Y Position</mat-label>
+            <input matInput type="number" [(ngModel)]="yPosition" placeholder="Y Position" name="yPosition1">
+          </mat-form-field>
+        </span>
+      </div>
+
+    <div class="fields-container" class="submit-button">
+      <button mat-raised-button color="accent" type="submit">Move Robot</button>
+    </div>
+  </form>
+  <div class="move-result">
+    <div *ngIf="newPosition" class="move-result-label">New Position:</div>
+    <div class="move-result-outcome">{{newPosition}}</div>
+  </div>
+</div>
+<div #robotContainer class="robot-icon">
+  <img #robotImg src="./assets/robotics.png" width="32" height="32">
+  <div #robotDirection>{{direction}}</div>
+</div>
