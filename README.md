@@ -91,4 +91,20 @@ Notes:
 ## Screenshots
 
 
+### Move in circle room 
+![Move in circle room](https://github.com/jSchnitzer1/Robotics/blob/master/screenshots/circle.png)
+
+### Move in square room 
+![Move in square room](https://github.com/jSchnitzer1/Robotics/blob/master/screenshots/square.png)
+
+### Handles invalid command
+![Handles invalid command](https://github.com/jSchnitzer1/Robotics/blob/master/screenshots/invalid_command.png)
+
+### Handles robot outbound the room
+![Handles robot outbound the room](https://github.com/jSchnitzer1/Robotics/blob/master/screenshots/robot_outbound.png)
+
+
+
+
+
 
