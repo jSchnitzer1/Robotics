@@ -10,6 +10,8 @@ Node.js v14.7.0
 
 npm v6.14.7 
 
+Angular CLI 10.0.5
+
 Maven 3 (https://maven.apache.org/)
 
 An IDE (VS Code or IntelliJ)
