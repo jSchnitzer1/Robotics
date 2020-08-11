@@ -73,10 +73,17 @@ A package of typescript code and Angular code
 - Typescript code to move the robot (call the MoveRobotService) and validates and handles errors.
 
 ## Run the application
+Make sure you are in the project home folder path ``` Robotics/ ```
 ### Backend Robot API
 ```
 $ sh run-backend.sh
 ```
+
+### Run All Tests
+```
+$ sh run-all_tests.sh
+```
+
 ### Frontend Angular Application
 ```
 $ sh run-frontend.sh
